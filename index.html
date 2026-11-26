@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>حديد | نادي لياقة وتدريب بالأوزان</title>
+  <meta name="description" content="نادي حديد: تدريب بالأوزان وكروس فيت وملاكمة ويوغا، بمدربين يتابعون تقدمك. احجز حصة تجريبية مجانية.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Lalezar&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">تخطَّ إلى المحتوى</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#top" aria-label="حديد، الصفحة الرئيسية">
+        <span class="brand-plate" aria-hidden="true"></span>
+        <span class="brand-name">حديد</span>
+      </a>
+      <nav class="nav" aria-label="القائمة الرئيسية">
+        <a class="nav-extra" href="#classes">التمارين</a>
+        <a class="nav-extra" href="#schedule">الجدول</a>
+        <a href="#plans">الاشتراكات</a>
+        <a class="nav-extra" href="#faq">أسئلة شائعة</a>
+        <a class="btn btn-small" href="#join">انضم الآن</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap hero" id="top">
+      <div class="hero-copy">
+        <h1>ابنِ قوتك<br>قطعةً قطعة.</h1>
+        <p class="lead">نادٍ للتدريب بالأوزان والكروس فيت والملاكمة، بمدربين يتابعون تمرينك من أول حصة حتى تصل إلى هدفك.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#join">احجز حصة تجريبية مجانية</a>
+          <a class="text-link" href="#schedule">شاهد جدول الأسبوع</a>
+        </div>
+        <p class="hours">مفتوح يوميًا من ٦ صباحًا حتى ١٢ منتصف الليل</p>
+      </div>
+
+      <aside class="today" aria-labelledby="today-title">
+        <h2 id="today-title">حصص اليوم: <span id="today-day">...</span></h2>
+        <ol class="today-list" id="today-list"></ol>
+      </aside>
+    </section>
+
+    <section class="wrap section" id="classes">
+      <h2>أربعة أنواع تدريب</h2>
+      <p class="section-intro">اختر ما يناسب هدفك، وبدّل بينها متى شئت داخل نفس الاشتراك المتقدم أو الكامل.</p>
+      <ul class="class-list">
+        <li class="class-item">
+          <h3>تدريب بالأوزان</h3>
+          <p>برنامج مبني على مستواك: حديد حر وأجهزة، مع مدرب يصحّح وضعيتك ويتابع تقدمك.</p>
+          <span class="meta">٦٠ دقيقة</span>
+        </li>
+        <li class="class-item">
+          <h3>كروس فيت</h3>
+          <p>تمارين وظيفية عالية الشدة في مجموعات صغيرة، تحسّن القوة والتحمل في حصة واحدة.</p>
+          <span class="meta">٤٥ دقيقة</span>
+        </li>
+        <li class="class-item">
+          <h3>ملاكمة لياقة</h3>
+          <p>ضرب الكيس وتمارين إيقاعية لحرق السعرات وتحسين التنسيق، من دون أي احتكاك.</p>
+          <span class="meta">٥٠ دقيقة</span>
+        </li>
+        <li class="class-item">
+          <h3>يوغا ومرونة</h3>
+          <p>حصة هادئة لفك الشد وتحسين المدى الحركي، مناسبة بعد أسبوع تدريب ثقيل.</p>
+          <span class="meta">٦٠ دقيقة</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="wrap section" id="schedule">
+      <h2>جدول الأسبوع</h2>
+      <p class="section-intro">اختر اليوم لترى الحصص ومواعيدها.</p>
+      <div class="day-tabs" id="day-tabs" role="group" aria-label="اختر اليوم"></div>
+      <ul class="schedule-list" id="schedule-list" aria-live="polite"></ul>
+      <noscript><p>فعّل JavaScript لعرض جدول الحصص.</p></noscript>
+    </section>
+
+    <section class="wrap section" id="plans">
+      <h2>الاشتراكات</h2>
+      <p class="section-intro">ألوان الأقراص هي ألوان أوزان البار الدولية: كل اشتراك قرص أثقل من الذي قبله.</p>
+      <div class="plans">
+        <article class="plan plan--green">
+          <div class="plate" aria-hidden="true"><span class="plate-num">١٠</span><span class="plate-unit">كجم</span></div>
+          <h3>الأساسي</h3>
+          <p class="price"><strong>١٩٩</strong> ر.س <span>/ شهريًا</span></p>
+          <ul class="features">
+            <li>الدخول إلى صالة الأوزان</li>
+            <li>خزانة يومية</li>
+            <li>تقييم لياقة عند البداية</li>
+          </ul>
+          <a class="btn btn-outline" href="#join">ابدأ بالأساسي</a>
+        </article>
+
+        <article class="plan plan--blue">
+          <div class="plate" aria-hidden="true"><span class="plate-num">٢٠</span><span class="plate-unit">كجم</span></div>
+          <h3>المتقدم</h3>
+          <p class="price"><strong>٤٩٩</strong> ر.س <span>/ ٣ أشهر</span></p>
+          <ul class="features">
+            <li>كل مزايا الأساسي</li>
+            <li>حصص الكروس فيت والملاكمة</li>
+            <li>خطة تدريب شخصية</li>
+          </ul>
+          <a class="btn btn-outline" href="#join">ابدأ بالمتقدم</a>
+        </article>
+
+        <article class="plan plan--red">
+          <div class="plate" aria-hidden="true"><span class="plate-num">٢٥</span><span class="plate-unit">كجم</span></div>
+          <h3>الكامل</h3>
+          <p class="price"><strong>١٬٥٩٩</strong> ر.س <span>/ سنة</span></p>
+          <ul class="features">
+            <li>كل مزايا المتقدم</li>
+            <li>حصص اليوغا</li>
+            <li>جلسة متابعة شهرية مع مدرب</li>
+            <li>تجميد الاشتراك ٣٠ يومًا</li>
+          </ul>
+          <a class="btn btn-outline" href="#join">ابدأ بالكامل</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap section" id="faq">
+      <h2>أسئلة شائعة</h2>
+      <div class="faq">
+        <details>
+          <summary>هل أحتاج إلى خبرة سابقة؟</summary>
+          <p>لا. تبدأ أول حصة بتقييم بسيط، ثم نضع لك مستوى مناسبًا ونزيد الحمل تدريجيًا.</p>
+        </details>
+        <details>
+          <summary>هل الحصة التجريبية مجانية؟</summary>
+          <p>نعم، حصة واحدة مجانية لكل شخص، ويمكنك اختيار أي نوع تدريب من الجدول.</p>
+        </details>
+        <details>
+          <summary>ماذا أحضر معي؟</summary>
+          <p>ملابس رياضية وحذاء مغلق ومنشفة وزجاجة ماء. الباقي متوفر في النادي.</p>
+        </details>
+        <details>
+          <summary>هل يمكن تجميد الاشتراك؟</summary>
+          <p>نعم، في الاشتراك الكامل لمدة ٣٠ يومًا خلال السنة.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="wrap section join" id="join">
+      <div class="join-copy">
+        <h2>احجز حصتك التجريبية</h2>
+        <p class="section-intro">اترك بياناتك وسنتواصل معك لتأكيد الموعد.</p>
+      </div>
+      <form class="join-form" id="join-form" novalidate>
+        <label for="field-name">الاسم</label>
+        <input id="field-name" type="text" autocomplete="name" maxlength="60" required>
+
+        <label for="field-phone">رقم الجوال</label>
+        <input id="field-phone" type="tel" inputmode="tel" autocomplete="tel" dir="ltr" placeholder="05XXXXXXXX" required>
+
+        <label for="field-class">نوع التدريب</label>
+        <select id="field-class">
+          <option value="weights">تدريب بالأوزان</option>
+          <option value="crossfit">كروس فيت</option>
+          <option value="boxing">ملاكمة لياقة</option>
+          <option value="yoga">يوغا ومرونة</option>
+        </select>
+
+        <button class="btn" type="submit">أرسل الطلب</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <div>
+        <p class="footer-brand">حديد</p>
+        <p>الرياض، المملكة العربية السعودية</p>
+      </div>
+      <div>
+        <p>مفتوح يوميًا ٦ صباحًا – ١٢ منتصف الليل</p>
+        <p>للتواصل: ٠٥٠ ٠٠٠ ٠٠٠٠</p>
+      </div>
+      <p class="footer-note">موقع تجريبي لمشروع عرض، والبيانات الظاهرة فيه أمثلة.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
